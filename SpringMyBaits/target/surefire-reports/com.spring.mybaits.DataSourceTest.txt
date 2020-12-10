@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.spring.mybaits.DataSourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.24 sec <<< FAILURE! - in com.spring.mybaits.DataSourceTest
+initializationError(com.spring.mybaits.DataSourceTest)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.IllegalStateException: Failed to find class [org.junit.runners.model.MultipleFailureException]: SpringJUnit4ClassRunner requires JUnit 4.9 or higher.
+
